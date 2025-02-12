@@ -1,0 +1,103 @@
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  z-index: 10;
+animation: animationA 2.5s ease-in-out forwards;
+}
+
+
+
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  font-size: 0.8rem;
+  gap: var(--gap-100);
+}
+
+li {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+header nav > ul > li:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+header a {
+  color: rgb(133, 86, 177);
+}
+
+header a:hover {
+  color: rgb(200, 161, 226);
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+.Siglas {
+  font-size: 2em;
+  text-align: center;
+  color: rgb(133, 86, 177);
+  animation: animationA 5s ease-in-out forwards;
+}
+
+
+@keyframes animationA {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 768px) {
+
+  Header a {
+    font-size: 1rem;
+  }
+  nav ul {
+    gap: var(--gap-100);
+  
+  }
+  .Siglas {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    width : 100%;
+    left: 0px;
+   padding-right: 4px;
+    padding-left: 4px;
+   }
+
+   header > nav {
+    display: flex;
+   
+   }
+   header a {
+    font-size: 0.8rem;
+   }
+
+   header > nav > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 0;
+   }
+
+   .Siglas {
+   font-size: 1.5rem;
+  }
+   
+}

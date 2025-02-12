@@ -1,0 +1,122 @@
+#MiProyectos{
+ margin-top: 2em;
+ padding-top: 2em;
+}
+
+#Projects {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-200);
+  align-items: center;
+  width: 100%;
+  margin-top: 2em;
+ padding-top: 2em;
+
+}
+
+#Projects img {
+  width: 500px;
+  height: 300px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  object-fit: cover;
+  animation: animationA 5s ease-in-out;
+}
+
+#Projects > h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: rgb(227, 209, 245);
+  animation: animationA 2.0s ease-in-out;
+}
+
+.divFlex{
+display: flex;
+flex-direction: column;
+gap: 2em;
+ width: 70%;
+ margin: auto;
+}
+
+.divFlex > article{
+  width: 100%;
+  margin-bottom: 1em;
+  animation: animationA 2.0s ease-in-out;
+}
+.Vista {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em; 
+  border-radius: 1em;
+}
+
+
+.Vista h4 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+  color: var(--color-100);
+  animation: animationA 2.0s ease-in-out;
+
+} 
+.btn {
+  background-color: black;
+  color: var(--color-100);
+  border: 1px solid var(--color-100);
+  font-size: 0.7em;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1em;
+  animation: animationA 2.0s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+  color: white;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-200);
+  align-items: start;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.DivBtn {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-200);
+}
+
+.info p {
+  width: 100%;
+  font-size: 1em;
+  color: rgb(227, 209, 245);;
+}
+
+@media (max-width: 480px) {
+  #Projects img {
+    width: 100%;
+    max-width: 250px;
+    height: 200px
+  }
+  .Vista {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}

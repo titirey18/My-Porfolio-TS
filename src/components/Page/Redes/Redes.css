@@ -1,0 +1,42 @@
+.redes-container {
+ position: fixed;
+ bottom: 20px;
+ left: 20px;
+ display: flex;
+flex-direction: column;
+ gap: var(--gap-100);
+ z-index: 1000;
+animation: animationA 5s ease-in-out;
+}
+
+
+
+
+.red-img {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(133, 86, 177);
+  border-radius: 50%;
+  transition: transform 0.3 ease;
+}
+
+.red-img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 480px) {
+   nav > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+   }
+   .red-img{
+    width: 20px;
+    height: 20px;
+   }
+   .redes-container {
+    display: flex;
+    left: 8px
+   }
+   
+}
