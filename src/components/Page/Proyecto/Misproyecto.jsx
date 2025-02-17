@@ -18,10 +18,10 @@ const Linkbutton = ({text, href}) => {
   )
 }
 
-const Article = ({imgSrc, imgTitle, imgAlt, name, description, link, link2}) => {
+const Article = ({img, imgTitle, imgAlt, name, description, link, link2}) => {
   return (
     <article className="Vista">
-      <Image src={imgSrc} alt={imgAlt} title={imgTitle} />
+      <Image src={img} alt={imgAlt} title={imgTitle} />
       <div className="info">
       <TextElement  tag="h4">{name}</TextElement >
       <TextElement  tag="p">{description}</TextElement >
@@ -40,7 +40,7 @@ const MyProjects = () => {
       <TextElement tag="h2">My Projects</TextElement>
       <div className="divFlex">
         <Article 
-          imgSrc="src/assets/Captura de pantalla 2025-01-13 124058.png"
+          img="public/assets/proyecto1.png"
           imgTitle="Proyecto1"
           imgAlt="Proyecto1"
           name="Top Videojuegos"
@@ -49,7 +49,7 @@ const MyProjects = () => {
           link2="https://github.com/titirey18/Frontend"
         />
         <Article 
-          imgSrc="src/assets/Captura de pantalla 2025-01-13 150014.png"
+          img="public/assets/proyecto2.png"
           imgTitle="Proyecto2"
           imgAlt="Proyecto2"
           name="Games-hub"

@@ -12,7 +12,7 @@ const MisRedes = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="src/assets/linkedin.png"
+                src="public/assets/linkedin.png"
                 alt="LinkedIn"
                 className="red-img"
               />
@@ -25,7 +25,7 @@ const MisRedes = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="src/assets/git.png"
+                src="public/assets/git.png"
                 alt="GitHub"
                 className="red-img"
               />
@@ -38,7 +38,7 @@ const MisRedes = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="src/assets/instagram.png"
+                src="public/assets/instagram.png"
                 alt="Instagram"
                 className="red-img"
               />
