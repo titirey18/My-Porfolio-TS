@@ -40,7 +40,7 @@ const MyProjects = () => {
       <TextElement tag="h2">My Projects</TextElement>
       <div className="divFlex">
         <Article 
-          img="public/assets/proyecto1.png"
+          img="/assets/proyecto1.png"
           imgTitle="Proyecto1"
           imgAlt="Proyecto1"
           name="Top Videojuegos"
@@ -49,7 +49,7 @@ const MyProjects = () => {
           link2="https://github.com/titirey18/Frontend"
         />
         <Article 
-          img="public/assets/proyecto2.png"
+          img="/assets/proyecto2.png"
           imgTitle="Proyecto2"
           imgAlt="Proyecto2"
           name="Games-hub"

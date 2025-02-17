@@ -8,7 +8,7 @@ const Sobre_mi = () => {
       <p className="Primero">Hola a todos! My nombre es</p>
       <h1>Thiago Soubielle</h1>
       <h2>Web Developer</h2>
-      <img src="public/assets/img-thiago.jpg" alt="Thiago Soubielle" />
+      <img src="/assets/img-thiago.jpg" alt="Thiago Soubielle" />
       <p>
       Mi nombre es Thiago, soy un entusiasta de la tecnología y estoy dando mis primeros pasos en el mundo del desarrollo web. He adquirido conocimientos en tecnologías como React, HTML, CSS, JavaScript y Node.js, entre otros. Estoy motivado por aprender constantemente y estoy emocionado por empezar a aplicar mis habilidades en proyectos reales.
       </p>
