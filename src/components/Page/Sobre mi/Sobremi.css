@@ -78,5 +78,8 @@ p {
   height: 200px;
   margin-top: 0.5rem;
 }
+.sobre-mi{
+  text-align: start;
+}
   
 }

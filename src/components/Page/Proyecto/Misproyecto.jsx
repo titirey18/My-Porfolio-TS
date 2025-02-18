@@ -37,7 +37,7 @@ const Article = ({img, imgTitle, imgAlt, name, description, link, link2}) => {
 const MyProjects = () => {
   return (
     <section id="Projects">
-      <TextElement tag="h2">My Projects</TextElement>
+      <TextElement tag="h2">Mis Proyectos</TextElement>
       <div className="divFlex">
         <Article 
           img="/assets/proyecto1.png"

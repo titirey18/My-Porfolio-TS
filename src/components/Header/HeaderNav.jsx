@@ -32,7 +32,7 @@ const Header = () => {
           </li>
           <li>
           <a onClick={() => scrolltosection("contacto")}>
-             contacto
+             Contacto
              </a>
           </li>
         </ul>
