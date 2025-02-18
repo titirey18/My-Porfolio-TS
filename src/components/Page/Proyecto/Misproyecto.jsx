@@ -54,8 +54,8 @@ const MyProjects = () => {
           imgAlt="Proyecto2"
           name="Games-hub"
           description="Tres tipos de juegos clasicos para pasar un buen rato 🕹️😁."
-          link="https://game-hub-six-livid.vercel.app/"
-          link2="https://github.com/titirey18/Game-Hub"
+          link="https://game-hub-dfcz.vercel.app/"
+          link2="https://github.com/titirey18/game-hub"
         />
       </div>
     </section>
