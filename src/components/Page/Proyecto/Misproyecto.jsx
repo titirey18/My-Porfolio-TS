@@ -43,10 +43,10 @@ const MyProjects = () => {
           img="/assets/proyecto1.png"
           imgTitle="Proyecto1"
           imgAlt="Proyecto1"
-          name="Top Videojuegos"
-          description="Cuales son los mejores juegos para vos? Haz Login y dale ❤️ a tus juegos favoritos."
-          link="https://frontend-ca1c7bj8u-thiagos-projects-3f331038.vercel.app/"
-          link2="https://github.com/titirey18/Frontend"
+          name="Formulario de Datos personales"
+          description="Formulario para ingresar y validar datos personales de los usuarios, con funcionalidades de validación para asegurar la correcta captura de información."
+          link="https://formulario2-ochre.vercel.app/"
+          link2="https://github.com/titirey18/Formulario2"
         />
         <Article 
           img="/assets/proyecto2.png"

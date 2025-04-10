@@ -33,6 +33,10 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.thank-you-message{
+  font-size: 25px;
+}
+
 .Placa > input[type="submit"] {
   padding: 0.5em 1em;
   background-color: var(--color-100);

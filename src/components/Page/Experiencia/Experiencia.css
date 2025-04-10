@@ -43,13 +43,6 @@
 
 
 
-.Experiencias {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  margin-bottom: 1em;
-}
-
 @media (max-width: 480px) {
   .experiencia-estudios h1 {
     font-size: 1.5em;
