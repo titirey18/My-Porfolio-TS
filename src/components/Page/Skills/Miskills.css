@@ -45,6 +45,8 @@ justify-content: center;
 @media (max-width: 480px) {
 
   .skills-container{
+    display: flex;
+ padding-top: 8em;
     margin-top: 10em;
   }
   .skills-container > ul > li {
