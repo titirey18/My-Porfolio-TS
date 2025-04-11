@@ -17,7 +17,7 @@ const Header = () => {
         <ul>
           <li>
             <a onClick={() => scrolltosection("MiExperiencia")}>
-            Experiencia
+            Estudios
              </a>
           </li>
           <li>

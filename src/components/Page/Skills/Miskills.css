@@ -6,7 +6,7 @@
   margin: auto;
   margin-bottom: 20em;
   margin-top: 12em;
- padding-top: 12em;
+ padding-top: 18em;
   animation: animationA 2.1s ease-in-out;
 }
 
@@ -29,10 +29,11 @@
   gap: var(--gap-400);
 }
 
+
 .skills-container > ul > li {
   display: flex;
   align-items: center;
-  justify-content: center;
+justify-content: center;
   gap: var(--gap-100);
   border-radius: 20px;
   background-color: var(--color-100);

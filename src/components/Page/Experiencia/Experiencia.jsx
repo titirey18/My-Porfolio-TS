@@ -5,7 +5,6 @@ const MiExperiencia = () => {
     <div className="experiencia-estudios">
       <h1>Estudios</h1>
       <div className="Estudios">
-        <h2>Estudios</h2>
         <ul>
         <li>Ingeniera Informatica, Cursando (<span>
           Argentina</span>)</li>

@@ -70,8 +70,8 @@ h2{
 }
 
 p {
-  width: 90%;
-  font-size: 0.8em
+  width: 100%;
+  font-size: 1em
 }
 .sobre-mi > img {
   width: 150px;
@@ -80,6 +80,10 @@ p {
 }
 .sobre-mi{
   text-align: start;
+}
+.Primero{
+  display: flex;
+  justify-content: center;
 }
   
 }
